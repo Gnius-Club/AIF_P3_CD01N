@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 1: Los Ecos Digitales</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 1:Los Ecos Digitales</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+                <li><a href="#activity-6">6</a></li>
+                <li><a href="#activity-7">7</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender qué es la huella digital y cómo nuestras acciones dejan rastro en Internet.</li>
+                                        <li>Analizar qué es una huella digital, cómo se forma y los tipos de información que dejan rastro.</li>
+                                        <li>Revisar casos reales e imaginarios para entender el impacto de la huella digital.</li>
+                                        <li>Reconocer que las publicaciones, comentarios y datos compartidos en línea pueden permanecer visibles y afectar a futuro.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Activación Gnius Club</strong></li>
+                                        <li><strong class="tactic-highlight">Recuerdo Relampago</strong></li>
+                                        <li><strong class="tactic-highlight">Objetivos de la Misión: "I Can Statement"</strong></li>
+                                        <li><strong class="tactic-highlight">Brain Boost</strong></li>
+                                        <li><strong class="tactic-highlight">Gamer Express</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge</strong></li>
+                                        <li><strong class="tactic-highlight">Clave Secreta de la Misión</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Declaración "I Can Statement" individual (escrita o dibujada) sobre el objetivo de la misión.</li>
+                                        <li>Anotación de una pista clave sobre ecos digitales durante la actividad Gamer Express.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                        <li>Post-its y marcadores para los equipos.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Activación Gnius Club ⏰ 3 minutos</h2>
+                <p>Presentar la dinámica de activación y modelarla.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Activación Gnius Club ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 2. Activación: Dos Verdades y un "Bug".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo Gnius, bienvenidos a bordo! 🚀 Antes de despegar, vamos a calentar nuestros cerebros de genios con un reto: 'Dos Verdades y un Bug'. Yo empiezo: 1. He construido un castillo épico en Minecraft. 2. He visto todos los videos de gatitos en internet. 3. Mi avatar en un juego es un ninja espacial. ¿Cuál es mi 'bug' o mentira?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación Gnius Club ⏰ 2 minutos</h3>
+                            <p>Los estudiantes, en parejas, crean y comparten sus 3 "hechos" (dos verdaderos, uno falso). Su compañero adivina el "bug".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Correcto, mi bug era el 2! Ahora les toca a ustedes. En parejas, piensen rápido en sus dos verdades y un bug sobre su vida digital. Compártanlo con su compañero y descubran su bug. ¡Tienen 90 segundos, a jugar!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Recuerdo Relampago ⏰ 4 minutos</h2>
+                <p>Activar conocimientos previos sobre el concepto de "dejar una marca" de forma imaginativa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relampago ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 3. Recuerdo Relámpago: La Pregunta del Explorador.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Genial! Ahora, activemos nuestra memoria cósmica 🌌. Imaginen que Internet es un planeta nuevo y misterioso. ¿Qué señal, objeto o mensaje dejarían para que futuros exploradores supieran que ustedes estuvieron allí? Piensen en algo que los represente. Compártanlo con su compañero de al lado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relampago ⏰ 2 minutos</h3>
+                            <p>El maestro recoge 2-3 ideas en plenaria y las conecta con el concepto de "huella digital".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Escucho ideas increíbles! Un graffiti, una bandera, ¡una cápsula del tiempo! Todas esas son 'huellas'. Pues, ¿adivinen qué? En el mundo digital, también dejamos huellas con todo lo que hacemos. ¡Y esa es nuestra misión de hoy!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Objetivos de la Misión: "I Can Statement" ⏰ 3 minutos</h2>
+                <p>Presentar la meta de la sesión de forma visual y con una metáfora.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Proyectar Diapositiva 4. Objetivos de la Misión. (Imagen de unas huellas en la arena que no se borran con las olas).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exploradores! Esas huellas que imaginaron son la clave. Nuestro objetivo de hoy es reconocer que todo lo que hacemos en línea deja un rastro, un eco digital que puede durar mucho tiempo. Es como dejar huellas en cemento fresco en lugar de arena.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivos de la Misión: "I Can Statement" ⏰ 1.5 minutos</h3>
+                            <p>Los estudiantes escriben o dibujan su "I Can Statement" en su cuaderno o post-it, y lo comparten brevemente.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, háganlo suyo. Mi reto personal es: 'Yo puedo explicar por qué una foto puede ser como un fósil digital'. En su bitácora/cuaderno de genio, completen la frase: 'Hoy mi reto es entender...'. Compártanlo con su compañero. ¡Vamos a lograrlo! ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Brain Boost ⏰ 5 minutos</h2>
+                <p>Despertar curiosidad con una historia sobre la permanencia de la información.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 5. Brain Boost: Storytelling. (Imagen de un personaje, Leo, con un disfraz gracioso de brócoli).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Imaginen a Leo. En 3º grado, participa en un concurso de disfraces y gana con su increíble traje de 'Super-Brócoli' 🥦. Su mamá, orgullosa, sube la foto a la red del colegio. ¡Todos lo felicitan! Pasan los años...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Brain Boost ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 6. El Caso del Super-Brócoli Viajero del Tiempo</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">...Ahora Leo está en secundaria y quiere ser capitán del club de robótica 🤖. El día de la elección, un compañero encuentra la foto del Super-Brócoli y la proyecta. Algunos se ríen. ¿Creen que la foto, que era divertida en su momento, le podría afectar a Leo ahora? ¿Por qué una foto del pasado puede 'viajar' al futuro en internet?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Brain Boost ⏰ 1 minutos</h3>
+                            <p>Conexión a la Misión (sin diapositiva, es parte del diálogo).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! Aunque fuera una broma, esa foto se convirtió en un eco digital. Algo que hacemos hoy, puede resonar mucho tiempo después. ¡Por eso nuestra misión es aprender a ser los directores de nuestra propia orquesta de ecos!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gamer Express ⏰ 10 minutos</h2>
+                <p>Explorar de forma autónoma y lúdica cómo se crean las huellas digitales a través de la plataforma.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gamer Express ⏰ 10 minutos</h3>
+                            <p>Proyectar Diapositiva 7. Gamer Express: Activación Plataforma y Timer de 10 min.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Lo que imaginamos con Leo nos prepara para el desafío real! Es hora del Gamer Express. Ingresen a la plataforma y jueguen la misión 'Los Ecos Digitales'. Mientras juegan, pongan modo detective 🕵️‍♀️. Su misión es cazar UNA pista o idea clave que les muestre cómo dejamos 'ecos' en el juego. Anótenla en su bitácora. ¡A descubrir, agentes!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-6">
+                <h2>⚡ Actividad 6: Challenge ⏰ 10 minutos</h2>
+                <p>Introducir la dinámica de juego desconectada, presentando el escenario y el personaje.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 8. Challenge: ¡Ayuda a Clara la Creadora!</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Increíble trabajo, detectives! Ahora, a aplicar ese conocimiento. Les presento a 'Clara la Creadora', quien está emocionada por subir su primer video de 'unboxing' de juguetes. Pero... no está segura si sus decisiones son las mejores. ¡Vamos a ayudarla!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 9. Las Reglas del Semáforo. (Gráficos de 🟢, 🟡, 🔴).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Usaremos el Semáforo Digital 🚦 para aconsejarla. 🟢 VERDE: ¡Adelante, Clara! Es una idea genial y segura. 🟡 AMARILLO: ¡Cuidado, piénsalo dos veces! Podría ser un riesgo. 🔴 ROJO: ¡Peligro, no lo hagas! Es una mala idea. ¡En sus equipos, prepárense para debatir!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge ⏰ 5 minutos</h3>
+                            <p>Proyectar Diapositiva 10. Los Casos de Clara. (Lista de acciones a analizar).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Equipo, a decidir! <br>Caso 1: Clara menciona en el video su nombre completo y el del parque donde juega. ¿Verde, amarillo o rojo? ¡Debatan y justifiquen! <br>Caso 2: Pide a sus seguidores que comenten cuál es su superhéroe favorito. <br>Caso 3: Usa de fondo una foto de su fiesta con amigos, sin preguntarles. ¡Decidan y preparen su porqué!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 11. Revisión Grupal.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Tiempo! Equipo 1, ¿qué decidieron para el caso 1 y por qué? Equipo 2, ¿están de acuerdo? ¡Excelente! Vemos que compartir dónde juegas es 🔴, pero hablar de superhéroes es 🟢. ¡Son unos asesores de primera!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-7">
+                <h2>⚡ Actividad 7: Clave Secreta de la Misión ⏰ 5 minutos</h2>
+                <p>Consolidar la idea principal de la sesión con una pregunta poderosa.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Clave Secreta de la Misión ⏰ 1 minutos</h3>
+                            <p>Proyectar Diapositiva 12. Clave Secreta de la Misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Misión cumplida, Gnius Club! Han demostrado ser unos estrategas digitales increíbles. Una última pregunta: en una palabra, ¿qué deja cada acción que hacemos en internet?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>El maestro escucha respuestas (eco, huella, rastro) y presenta la clave secreta.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Exacto! Un eco, una huella, un rastro. Para que nunca lo olvidemos, nuestra Clave Secreta de hoy es el lema de todo creador inteligente... ✨ Lo que en la red hoy comparto con emoción, mañana puede ser parte de mi reputación. ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Clave Secreta de la Misión ⏰ 2 minutos</h3>
+                            <p>Proyectar Diapositiva 13. Cierra de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Vamos a grabarla en nuestro disco duro! Repitámosla como robots: LO-QUE-EN-LA-RED... ¡Ahora en susurros, como un secreto! ...parte de mi reputación... ¡Genial! Guarden esa clave, porque nos deja una pregunta para nuestra próxima aventura: Si nuestras acciones construyen nuestra reputación en línea, ¿cómo podemos ser arquitectos de una huella digital de la que estemos orgullosos? ¡Nos vemos en la próxima misión!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
